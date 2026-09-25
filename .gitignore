@@ -1,0 +1,30 @@
+# ===== 编译产物 =====
+# 任意层级下的 build 目录（含 Debug/Release、*.o、*.exe）
+build/
+**/build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.ilk
+*.pdb
+*.d
+
+# ===== 程序运行时生成的数据文件 =====
+# 职工管理系统的员工数据（workManger.h 中硬编码 D:/vscoding/empFlie.txt）
+# 如需把员工数据也纳入版本管理，删掉下面这一行即可
+empFlie.txt
+
+# ===== 编辑器 / 系统 =====
+.vs/
+.vscode/ipch/
+*.user
+*.suo
+*.swp
+*~
+Thumbs.db
+desktop.ini
