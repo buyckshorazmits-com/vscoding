@@ -54,7 +54,8 @@ void test2()
     PrintList(L6);
 
     cout<<"交换后："<<endl;
-    L5.swap(L6);
+    L5.swap(L6);//将L6与L5的元素互换 并且只是将两个链表里的哨兵指针与size对调 
+    //节点本身既没有被销毁 也没有被拷贝 
     cout<<"L5:"<<endl;
     PrintList(L5);
     cout<<"L6:"<<endl;
