@@ -22,7 +22,7 @@ void test()
     L1.push_back(4);
     PrintList(L1);
 
-    if(L1.empty())//判断容器是否为空
+    if(L1.empty())//返回值是布尔类型  判断容器是否为空
     {
         cout<<"空"<<endl;
 
