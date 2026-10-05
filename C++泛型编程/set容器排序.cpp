@@ -1,7 +1,7 @@
 #include<iostream>
 #include<set>
 using namespace std;
-
+//内置类型
 class MyCompare//← 这个类就是"仿函数" 
 {
     public:
