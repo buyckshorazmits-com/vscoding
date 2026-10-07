@@ -35,7 +35,10 @@ class solutoin
                 return middle;
             }
         }
-        return -1;
+        // 如果能找到 target，直接返回其下标
+        // 如果找不到，当循环结束时 left > right，且 left = right + 1
+        // 此时 left 正好是 target 应该插入的位置
+        return right+1;
     }
 };
 int main()
