@@ -62,19 +62,20 @@ int main()
 {
     
     vector<int> v;
-    v.push_back(1);
-    v.push_back(3);
     v.push_back(5);
     v.push_back(7);
-    v.push_back(9);
-    v.push_back(11);
-    v.push_back(13);
-    v.push_back(15);
+    v.push_back(7);
+    v.push_back(8);
+    v.push_back(8);
+    v.push_back(10);
+    
     int target;
     cin>>target;
     Print(v);
 
     Solution s;
-    s.searchRange(v,target);
+    vector<int> result = s.searchRange(v, target);
+    Print(result);
     
+    return 0;
 }
